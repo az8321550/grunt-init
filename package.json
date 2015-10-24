@@ -1,6 +1,6 @@
 {
-  "name": "grunt-init",
-  "version": "1.0.0",
+  "name": "grunt-init-pro",
+  "version": "0.1.1",
   "description": "Grunt init",
   "main": "index.js",
   "repository": {
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/az8321550/grunt-init#readme",
   "dependencies": {
-    "crypto": "0.0.3"
+    "cf-encrypt": "^1.0.0"
   }
 }
