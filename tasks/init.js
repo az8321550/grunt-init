@@ -16,7 +16,7 @@ module.exports = function(grunt) {
           return false;
         } else {
           var newFilename = (grunt.file.isDir(options.dest) ? [filepath].join('.') : (options.ext) ? [options.dest, options.ext].join('.') : options.dest);
-          var contents = encrypt[(options.decrypt) ? 'decrypt' : 'encrypt'](options.key, grunt.file.read(filepath), 'hex');
+          var contents = encrypt[(options.test) ? 'decrypt' : 'encrypt'](options.key, grunt.file.read(filepath), 'hex');
           grunt.file.write(newFilename, contents);
           return true;
         }
