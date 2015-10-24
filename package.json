@@ -1,0 +1,24 @@
+{
+  "name": "grunt-init",
+  "version": "1.0.0",
+  "description": "Grunt init",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/az8321550/grunt-init.git"
+  },
+  "keywords": [
+    "grunt",
+    "init",
+    "grunt-init"
+  ],
+  "author": "nobody",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/az8321550/grunt-init/issues"
+  },
+  "homepage": "https://github.com/az8321550/grunt-init#readme",
+  "dependencies": {
+    "crypto": "0.0.3"
+  }
+}
